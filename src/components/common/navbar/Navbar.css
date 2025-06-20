@@ -1,0 +1,41 @@
+/* Add your global styles here */
+
+.navbar {
+  background: linear-gradient(to right, #001f3f, #66ccff);
+  padding: 15px 0;
+  align-items: center;
+  --bs-navbar-toggler-icon-bg: url(../../../assets/images/mmenu.png) !important;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+.navbar-toggler{
+  border-color: white !important;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.logo img {
+  width: 70px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.logo span {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color:#fff !important;
+  text-align: end !important;
+  color: rgb(255, 255, 255) !important;
+  margin-right: 1rem !important;
+}
+.nav .lets-talk-button{
+  width: 50% !important;
+  height: 50px !important;
+}

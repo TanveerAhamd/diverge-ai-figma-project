@@ -1,0 +1,28 @@
+.testimonilas{
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.testimonilas .row h2{
+    font-size: 4rem;
+}
+.testimonilas .icon{
+    font-size: 3rem;
+    height: 60px;
+    width: 60px;
+}
+.testimonilas .carousel p{
+    font-size: 1.4rem !important;
+}
+.testimonilas .carousel p span{
+    font-size: 8px !important;
+}
+
+.testimonilas .carousel-indicators{
+    left: -438px !important;
+  }
+  @media (max-width: 992px) { 
+    .testimonilas .carousel-indicators{
+        left: -219px !important;
+      }
+   }

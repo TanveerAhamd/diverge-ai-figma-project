@@ -1,0 +1,27 @@
+.scroll-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0.5s;
+  }
+  
+  .scroll-to-top-button.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .scroll-to-top-button button {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 20%;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .scroll-to-top-button button:focus {
+    outline: none;
+  }
+  

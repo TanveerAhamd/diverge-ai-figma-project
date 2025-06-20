@@ -1,0 +1,50 @@
+/* Add your global styles here */
+
+.about {
+    padding: 50px 0;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .text-uppercase {
+    text-transform: uppercase;
+  }
+  
+  .text-blue {
+    color: blue;
+  }
+  .about-content h2{
+    color: #333;
+    font-size: 3.2rem;
+  }
+  
+  .text-gray {
+    color: gray;
+    font-size: 1.5rem;
+  }
+  
+  .list-unstyled {
+    list-style-type: none;
+  }
+  
+  .checked-icon {
+    color: blue;
+    margin-right: 5px;
+    font-size: 23px;
+  }
+  .about .about-content .lets-talk-button{
+    background-color: #137ccf !important;
+    color: white !important;
+  }
+  .about .about-content .lets-talk-button .rounded-circle {
+    background-color: rgb(255, 255, 255);
+    color: #137ccf !important;
+    border: none;
+  }
+  .about .about-content .lets-talk-button .rounded-circle svg {
+    fill: #137ccf !important;
+  }

@@ -1,0 +1,21 @@
+/* Minimal additional CSS is required for custom styling */
+
+.data-analysis {
+    padding: 50px 0px 0px 0px;
+  }
+  
+  .bg-blue {
+    background-color: #137ccf;
+  }
+  .data-analysis .bg-card{
+    background-color: #00000029 !important;
+  }
+  
+
+  
+  .font-size-3rem {
+    font-size: 3.3rem;
+  }
+  .data-analysis .p{
+    font-size: 1.7rem;
+  }

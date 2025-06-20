@@ -1,0 +1,132 @@
+/* Add your global styles here */
+
+.case-study {
+    background-color: #F6F7FC;
+    padding: 50px 0px 100px 0px;
+}
+
+.heading-services {
+    font-size: 3rem;
+    padding: 0px 140px 10px 140px;
+}
+
+.text-dark {
+    color: #333 !important;
+}
+
+.text-gray {
+    color: gray !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+
+.font-size {
+    font-size: 1rem !important;
+}
+
+.carousel-indicators {
+    bottom: -75px !important;
+}
+
+.carousel-indicators li {
+    background-color: #C3CEE4 !important;
+    border: 1px solid #C3CEE4 !important;
+    width: 20px;
+    height: 20px;
+    transition: background-color 0.3s;
+}
+
+.carousel-indicators button {
+    background-color: #C3CEE4 !important;
+    height: 5px !important;
+    border-radius: 10px;
+}
+
+.carousel-indicators .active {
+    background-color: blue !important;
+}
+
+.case-study .card {
+    position: relative;
+    /* background-color: white; */
+    background-image: url(../../assets/images/card.png);
+    /* background: no-repeat 100% !important; */
+    background-repeat: no-repeat !important;
+    background-size: 100% !important;
+    padding: 15px 60px 15px 60px;
+    border: none;
+    height: 400px !important;
+    transition: border 0.3s, cursor 0.3s;
+    cursor: pointer;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 40px !important;
+}
+
+.case-study .card:hover button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 255) !important;
+}
+
+.case-study .card-title {
+    font-size: 1rem;
+    position: absolute;
+    top: 40%;
+    left: 4%;
+    background-color: #00000071;
+    color: #FFF !important;
+    border-radius: 15px;
+    height: 30px;
+    padding: 5px 5px;
+}
+
+.case-study .card-text {
+    position: absolute;
+    text-align: start !important;
+    font-size: 1.7rem !important;
+    bottom: 20%;
+    left: 4%;
+    color: #FFF !important;
+}
+
+.case-study .card button {
+    color: rgb(0, 0, 255);
+    background-color: rgb(255, 255, 255) !important;
+    position: absolute;
+    left: 4%;
+    bottom: 5%;
+    border: 1px solid rgba(255, 255, 255, 0);
+    /* text-transform: uppercase; */
+}
+.case-study .card button:hover {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(0, 0, 255) !important;
+    border: 1px solid rgb(0, 26, 255) !important;
+}
+
+@media (max-width: 992px) {
+    .case-study .card .card-title{
+        top: 30%;
+    }
+    .case-study .heading-services {
+        font-size: 3rem;
+        padding: 0px 10px 10px 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    .case-study .card {
+        background-color: white;
+        padding: 15px 60px 15px 60px !important;
+        border: none;
+        transition: border 0.3s, cursor 0.3s;
+        cursor: pointer;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 40px !important;
+    }
+}

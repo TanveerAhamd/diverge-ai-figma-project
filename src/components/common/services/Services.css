@@ -1,0 +1,124 @@
+/* Add your global styles here */
+
+.services {
+    background-color: #F6F7FC;
+    padding: 50px 0px 100px 0px;
+  }
+  .heading-services{
+    font-size: 3rem;
+    padding: 0px 140px 10px 140px;
+  }
+
+  .text-dark {
+    color: #333 !important;
+  }
+  
+  .text-gray {
+    color: gray !important;
+  }
+  
+  .text-center {
+    text-align: center !important;
+  }
+  
+  .text-uppercase {
+    text-transform: uppercase !important;
+  }
+  
+  .font-size {
+    font-size: 1rem !important;
+  }
+  
+  .services .icon {
+    background: linear-gradient(to right, #024588, #4aa4d1);
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    line-height: 50px;
+    margin: 0 auto;
+    padding: 10px 10px;
+  }
+  
+  .icon img {
+    color: white;
+    width: 70px;
+    height: 70px;
+    font-size: 1.5rem;
+  }
+  .carousel-indicators{
+    bottom: -75px !important;
+  }
+  
+  .carousel-indicators li {
+    background-color: #C3CEE4 !important;
+    border: 1px solid #C3CEE4 !important;
+    width: 20px;
+    height: 20px;
+    transition: background-color 0.3s;
+  }
+  .carousel-indicators button{
+    background-color: #C3CEE4 !important;
+    height: 5px !important;
+    border-radius: 10px;
+  }
+  .carousel-indicators .active {
+    background-color: blue !important;
+  }
+  
+  .services .card {
+    background-color: white;
+    padding: 15px 60px 15px 60px;
+    border: none;
+    transition: border 0.3s, cursor 0.3s;
+    cursor: pointer;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px !important;
+  }
+  
+  .services .card:hover {
+    border: 1px solid blue;
+  }
+  
+  .card-title {
+    font-size: 1rem;
+  }
+  
+  .card-text {
+    font-size: 0.5rem;
+  }
+  
+  .card button {
+    color: blue;
+    background-color: transparent;
+    border: none;
+    /* text-transform: uppercase; */
+  }
+  .card button:hover {
+    color: blue !important;
+    background-color: transparent !important;
+    border: none !important;
+    /* text-transform: uppercase; */
+  }
+  @media (max-width: 992px) { 
+    .services .heading-services{
+        font-size: 2.3rem;
+        padding: 0px 10px 10px 10px !important;
+      }
+   }
+   @media (max-width: 568px) { 
+    .services .heading-services{
+        font-size: 1.8rem;
+        padding: 0px 10px 10px 10px !important;
+      }
+   }
+   @media (min-width: 992px) {
+    .services .card {
+        background-color: white;
+        padding: 15px 60px 15px 60px !important;
+        border: none;
+        transition: border 0.3s, cursor 0.3s;
+        cursor: pointer;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 10px !important;
+      }
+   }

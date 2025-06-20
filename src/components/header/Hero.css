@@ -1,0 +1,70 @@
+/* Add your global styles here */
+
+.hero {
+    background: linear-gradient(to right, #001f3f, #66ccff);
+    padding: 0;
+  }
+  .content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+
+  .content h2 {
+    font-size: 4.5rem;
+    font-weight: 600;
+    
+  }
+  .content h6 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-style: normal;
+    
+  }
+  
+  .content p {
+    font-size: 1.6rem;
+  }
+  
+  .description {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .image-section {
+    display: flex;
+    justify-content: center;
+    align-items: end !important;
+  }
+  
+  .image-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  @media (max-width: 992px) { 
+    .content h2 {
+      font-size: 2.5rem;
+      font-weight: 600;
+      
+    }
+    .hero .w-25{
+      width: 100% !important;
+    }
+    .content h6 {
+      text-transform: uppercase;
+      font-size: 1rem;
+      font-style: normal;
+      
+    }
+    
+    .content p {
+      font-size: 1.6rem;
+    }
+    
+    .description {
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+   }
