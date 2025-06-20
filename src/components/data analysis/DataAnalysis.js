@@ -17,34 +17,34 @@ const DataAnalysis = () => {
                             <p className='p'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             </p>
-                                <Row className='mt-5'>
-                                    <Col md={6}>
-                                        <Card className="bg-card border-0 text-white mb-3">
-                                            <div className="d-flex align-items-center gap-4">
-                                                <div className="icon p-3">
-                                                    <img src={ai} alt='' />
-                                                </div>
-                                                <div>
-                                                    <h3 className="text-white">123+</h3>
-                                                    <p>Lorem 2 words</p>
-                                                </div>
+                            <Row className='mt-5'>
+                                <Col md={6}>
+                                    <Card className="bg-card border-0 text-white mb-3">
+                                        <div className="d-flex align-items-center gap-4">
+                                            <div className="icon p-3">
+                                                <img src={ai} alt='' />
                                             </div>
-                                        </Card>
-                                    </Col>
-                                    <Col md={6}>
-                                        <Card className="bg-card text-white border-0 mb-3">
-                                            <div className="d-flex align-items-center gap-4">
-                                                <div className="icon p-3">
-                                                    <img src={clients} alt='' />
-                                                </div>
-                                                <div>
-                                                    <h3 className="text-white">456+</h3>
-                                                    <p>Lorem 2 words</p>
-                                                </div>
+                                            <div>
+                                                <h3 className="text-white">123+</h3>
+                                                <p>Lorem 2 words</p>
                                             </div>
-                                        </Card>
-                                    </Col>
-                                </Row>
+                                        </div>
+                                    </Card>
+                                </Col>
+                                <Col md={6}>
+                                    <Card className="bg-card text-white border-0 mb-3">
+                                        <div className="d-flex align-items-center gap-4">
+                                            <div className="icon p-3">
+                                                <img src={clients} alt='' />
+                                            </div>
+                                            <div>
+                                                <h3 className="text-white">456+</h3>
+                                                <p>Lorem 2 words</p>
+                                            </div>
+                                        </div>
+                                    </Card>
+                                </Col>
+                            </Row>
                         </div>
                     </Col>
                     <Col md={12} sm={12} lg={5}>

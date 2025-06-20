@@ -80,7 +80,7 @@ const Footer = () => {
                 </Row>
                 <Row>
                     <Col className="copyright border-top pt-4 pb-0" xs={12}>
-                        <p className='d-flex justify-content-center'>&copy; 2023, &nbsp; <NavLink to='/' className='nav-link'> DivergeAI.com </NavLink>&nbsp; All Rights Reserved.</p>
+                        <p className='d-flex justify-content-center'>&copy; 2024, &nbsp; <NavLink to='/' className='nav-link'> tanni.dev </NavLink>&nbsp; All Rights Reserved.</p>
                     </Col>
                 </Row>
             </Container>

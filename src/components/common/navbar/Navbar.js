@@ -12,7 +12,7 @@ const NavBar = () => {
                 <Navbar.Brand to="#">
                     <div className="logo">
                         <img src={logo} alt="Logo" />
-                        <span>DIVERGE AI</span>
+                        <span>RobotApex</span>
                     </div>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
