@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaFacebook, FaTwitter, FaLinkedin, FaEnvelope, FaArrowRight } from 'react-icons/fa';
 import { BsFillTelephoneFill } from 'react-icons/bs';
-import { MdLocationPin } from 'react-icons/md';
+import { MdHeight, MdLocationPin } from 'react-icons/md';
 import './Footer.css';
 import logo from '../../../assets/images/logo.png';
 import { NavLink } from 'react-router-dom';
@@ -14,15 +14,15 @@ const Footer = () => {
                 <Row>
                     <Col lg={4} md={6}>
                         <div className="logo">
-                            <div className='d-flex align-items-center'>
-                                <img src={logo} alt="Logo" />
-                                <h2>DIVERGE AI</h2>
+                            <div className='d-flex align-items-center justify-content-center'>
+                                <img src={logo} alt="Logo" style={{ width :"150px"}} />
+                                {/* <h2>DIVERGE AI</h2> */}
                             </div>
-                            <p>We Bring the Power of Data and Science & AI to Business.</p>
+                            <p className='mt-3' >We Bring the Power of Data and Science & AI to Business.</p>
                             <div className="social-links">
-                                <NavLink className='rounded-circle border-1' to="https://www.facebook.com/divergeai"><FaFacebook /></NavLink>
-                                <NavLink className='rounded-circle border-1' to="https://www.twitter.com/divergeai"><FaTwitter /></NavLink>
-                                <NavLink className='rounded-circle border-1' to="https://www.linkedin.com/divergeai"><FaLinkedin /></NavLink>
+                                <NavLink className='rounded-circle border-1' to=""><FaFacebook /></NavLink>
+                                <NavLink className='rounded-circle border-1' to=""><FaTwitter /></NavLink>
+                                <NavLink className='rounded-circle border-1' to=""><FaLinkedin /></NavLink>
                             </div>
                         </div>
                     </Col>
@@ -67,20 +67,20 @@ const Footer = () => {
                         <div className="contact-info">
                             <p>Contact Us</p>
                             <div className="contact-details">
-                                <BsFillTelephoneFill /><span>+613 8376 6284</span>
+                                <BsFillTelephoneFill /><span>+92 3000 695646</span>
                             </div>
                             <div className="contact-details">
-                                <FaEnvelope /><span>info@divergeai.com</span>
+                                <FaEnvelope /><span>info@robotapex.xyz</span>
                             </div>
                             <div className="contact-details">
-                                <MdLocationPin /><span>21 King Street Melbourne, 3000, Australia</span>
+                                <MdLocationPin /><span>Tareen Institute, Lodhran</span>
                             </div>
                         </div>
                     </Col>
                 </Row>
                 <Row>
                     <Col className="copyright border-top pt-4 pb-0" xs={12}>
-                        <p className='d-flex justify-content-center'>&copy; 2024, &nbsp; <NavLink to='/' className='nav-link'> tanni.dev </NavLink>&nbsp; All Rights Reserved.</p>
+                        <p className='d-flex justify-content-center'>&copy; 2025, &nbsp; <NavLink to='/' className='nav-link'> Tanni.dev </NavLink>&nbsp; All Rights Reserved.</p>
                     </Col>
                 </Row>
             </Container>

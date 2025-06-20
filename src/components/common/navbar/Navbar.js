@@ -3,6 +3,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import ButtonStyle from '../button/Button';
 import './Navbar.css';
 import logo from '../../../assets/images/logo.png';
+
 import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
@@ -10,10 +11,10 @@ const NavBar = () => {
         <Navbar expand="lg" bg="transparent" className="navbar" id='navbar'>
             <Container>
                 <Navbar.Brand to="#">
-                    <div className="logo">
-                        <img src={logo} alt="Logo" />
-                        <span>RobotApex</span>
-                    </div>
+                    <NavLink className='nav-link' to="/">
+                        <div className="logo">
+                            <img src={logo} style={{ width: "170px" }} alt="Logo" />
+                        </div></NavLink>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
